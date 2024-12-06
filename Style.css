@@ -1,0 +1,144 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo {
+      width: 200px; /* Adjust the width */
+      height: 200px; /* Maintain aspect ratio */
+    }
+
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            /* Add background texture */
+            background-image: url('unnamed.jpg'); /* Replace with your texture image URL */
+            background-size: cover; /* Make sure the texture covers the whole page */
+            background-position: center center; /* Center the texture */
+            background-attachment: fixed; /* Keep the texture fixed when scrolling */
+        }
+
+ .background-section {
+            width: 100%;  /* Width of the section */
+            height: 400px; /* Height of the section */
+            background-image: url('bg.jpg'); /* Background image */
+            background-size: cover; /* Image will cover the section */
+            background-position: 200px 300px; /* Center the image */
+            background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+        }
+
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+
+/* Header */
+header {
+    background-color: #4a2c2a;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #f9d342;
+}
+
+/* Hero Section */
+#hero {
+    background: url('https://source.unsplash.com/1600x900/?coffee') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero h1 {
+    font-size: 2.5em;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+}
+
+#hero .btn {
+    background-color: #f9d342;
+    color: #4a2c2a;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#hero .btn:hover {
+    background-color: #4a2c2a;
+    color: #fff;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: #4a2c2a;
+}
+
+/* Menu Section */
+#menu .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+padding: 20px;
+      margin: 0;
+      list-style-type: none;
+      text-align: center;
+}
+
+#menu .menu-item {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#menu .menu-item h3 {
+    margin-bottom: 10px;
+    color: #4a2c2a;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #4a2c2a;
+    color: #fff;
+    padding: 15px 0;
+}
